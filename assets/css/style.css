@@ -1,0 +1,41 @@
+@media(max-width: 599px) {
+    body {
+        background-color: lightpink;
+    }
+}
+
+@media(min-width: 600px) and (max-width: 899px) {
+    #header {
+        background-color: lightgreen;
+    }
+}
+
+@media(min-width: 900px) {
+    footer {
+        background-color: lightgreen;
+    }
+}
+
+#header p {
+    font-weight: bold;
+}
+
+section {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+body {
+    padding: 20px;
+}
+
+.hobby {
+    padding: 20px;
+    border-bottom: 1px black solid;
+    border-collapse: collapse;
+}
+
+footer {
+    border-top: 2px black solid;
+}
+
